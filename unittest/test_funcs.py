@@ -3,11 +3,11 @@ from funcs import even_odd, average, Max, Min
 
 
 # TODO: 아래의 코드를 삭제하고 unittest를 작성하세요.
-def test_even():
-    assert True == test_even(10)
-    assert False == test_even(3)
-    assert True == test_even(12)
-    assert False == test_even(13)
+def test_even_odd():
+    assert True == even_odd(10)
+    assert False == even_odd(3)
+    assert True == even_odd(12)
+    assert False == even_odd(13)
 
 def test_average():
     assert 3 == average([1, 2, 3, 4, 5])
